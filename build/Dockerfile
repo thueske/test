@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-ENTRYPOINT ["sh", "-c", "echo 'Noch neueres Image' && tail -f /dev/null"]
+ENTRYPOINT ["sh", "-c", "echo 'Noch mal ein neueres Image' && tail -f /dev/null"]
